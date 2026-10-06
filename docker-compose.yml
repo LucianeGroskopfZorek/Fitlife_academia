@@ -1,0 +1,8 @@
+services:
+  laravel:
+    build: .
+    container_name: linux-fit
+    ports:
+      - "8000:80"
+    volumes:
+      - ./:/var/www/html
